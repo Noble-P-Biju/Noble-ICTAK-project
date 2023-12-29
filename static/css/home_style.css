@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('../img/background.jpg'); /* Add your home background image */
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    overflow: hidden;
+}
+
+header img {
+    width: 10%;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.head-tag {
+    float: right;
+    margin-top: 40px;
+}
+
+.head-tag a {
+    color: black; /* Set default text color to black */
+    background-color: white; /* Set default background color to white */
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.head-tag a:hover {
+    background-color: #555;
+    color: white; /* Change text color to white on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+    font-size: 36px; /* Increase font size for emphasis */
+    line-height: 1.6;
+}
+
+h1::before {
+    content: '\201C'; /* Unicode character for opening double quotation mark */
+    font-size: 42px; /* Larger font size for the quotation mark */
+    margin-right: 5px; /* Adjust spacing between the quotation mark and text */
+}
+
+h1::after {
+    content: '\201D'; /* Unicode character for closing double quotation mark */
+    font-size: 42px; /* Larger font size for the quotation mark */
+    margin-left: 5px; /* Adjust spacing between the quotation mark and text */
+}
+.services {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}

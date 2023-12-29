@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    overflow: hidden;
+    text-align: right; 
+}
+
+header a {
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding for better appearance */
+    color: black; /* Set initial text color to black */
+    background-color: white; /* Set initial background color to white */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+header a:hover {
+    background-color: #555;
+    color: white; /* Change text color to white on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    padding: 10px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.addmsg {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}

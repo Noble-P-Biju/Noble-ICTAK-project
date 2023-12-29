@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size:cover;
+}
+
+header {
+    background-color: #20232bce;
+    padding: 10px;
+    color: rgb(29, 27, 27);
+    overflow: hidden; /* Clear the float */
+}
+
+header img {
+    width: 10%;
+    height:fit-content;
+    float: left;
+}
+
+.head-tag {
+    float: right;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+.head-tag .logo-text {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(248, 243, 243);
+    font-size: 37px;
+    margin-right: 350px;
+    border-bottom: 10px solid transparent; 
+    transition: border-color 0.3s;
+}
+.head-tag a {
+    color: white;
+    text-decoration: none;
+    margin:  0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green background color for both buttons */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.head-tag a:hover {
+    background-color: #5e5b5dcc;
+    color: #fff;
+}
+
+.head-tag a.contact {
+    background-color: #16bbf3; /* Blue background color for contact button */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 150px;
+}
+
+
+.content-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px; 
+    transition: color 0.3s;
+}
+h1:hover {
+    color: #4CAF50; 
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    transition: color 0.3s; /* Added transition for smooth color change on hover */
+}
+
+p:hover {
+    color: #008CBA; /* Changed color on hover */
+}
