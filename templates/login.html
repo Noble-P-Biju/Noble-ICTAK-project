@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="../static/css/login_style.css">
+</head>
+
+<body>
+   <h1>Login to your account</h1>
+   <form action="/home" method="post">
+    <label>Username:</label>
+    <input type="text" name="username">
+    <br>
+    <br>
+    <label>Password:</label>
+    <input type="password" name="password">
+    <br>
+    <br>
+    <input type="submit" value="Login">
+    <p id="error-msg">{{msg}}</p> <!-- Optional: Display error message -->
+    <label>This is a sample test project, please use (username:noble) and (password:1234) </label>
+   </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<title>View</title>
+<link rel="stylesheet" href="../static/css/view_style.css">
+<head>
+</head>
+<body>
+<h1>View</h1>
+<table border='1px'>
+    <thread>
+
+        <tr>
+            <th>Task id </th>
+            <th>User id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Due Date</th>
+            <th>Status</th>
+            <th>Category</th>
+        </tr>
+
+    </thread>
+    {%for row in sqldata%}
+    <tr> 
+        <td>{{row[0]}}</td>
+        <td>{{row[1]}}</td>
+        <td>{{row[2]}}</td>
+        <td>{{row[3]}}</td>
+        <td>{{row[4]}}</td>
+        <td>{{row[5]}}</td>
+        <td>{{row[6]}}</td>
+    </tr>
+    {%endfor%}
+</table>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="../static/css/add_style.css">
+</head>
+
+<body>
+   <h1 align="center">Delete Task</h1>
+   <form action="/deleteresult" method="post" align="center">
+    <label >User id:</label>
+    <input type="text" name="user_id">
+    <label >Task Name:</label>
+    <input type="text" name="title">
+    <br>
+   
+    <br>
+    <input type="submit" value="delete">
+    {{dltmsg}}
+</form>
+
+</body>
+</html>

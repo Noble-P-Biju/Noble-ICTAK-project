@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/add_style.css">
+</head>
+<body style="background-image:url('../static/img/background.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+    <header>
+        
+    </header>
+    <h1>ADD TASK</h1>
+    <form action="/read" method="POST">
+     <table>
+        <tr>
+            <td>Task id</td>
+            <td><input type="number" name="task_id"></td>
+        </tr>
+        <tr>
+            <td>User id</td>
+            <td><input type="number" name="user_id"></td>
+        </tr>
+        <tr>
+            <td>Title</td>
+            <td><input type="text" name="title"></td>
+        </tr>
+         <tr>
+            <td>Description</td>
+            <td><input type="text" name="description"></td>
+        </tr>
+        <tr>
+           <td>Enter a date:</td>
+         <td><input type="date"  name="due_date" ></td>
+        </tr>
+        <tr>
+            <td>Status</td>
+            <td><input type="text" name="status"></td>
+        </tr>
+        <tr>
+            <td>Category</td>
+            <td><input type="text" name="category"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit"></td>
+        </tr>
+     </table>
+     {{addmsg}}
+    </form>
+</body>
+</html>

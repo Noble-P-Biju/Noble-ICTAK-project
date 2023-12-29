@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Sign UP</title>
+    <link rel="stylesheet" href="../static/css/signup_style.css">
+   
+</head>
+<body >
+    <h1>Sign Up</h1>
+    <form action="/sign" method="POST">
+     <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>User id</td>
+            <td><input type="number" name="user_id"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+         
+        <tr>
+            <td></td>
+            <td><input type="submit"></td>
+        </tr>
+     </table>
+     {{signmsg}}
+    </form>
+</body>
+</html>

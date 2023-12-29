@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="../static/css/add_style.css">
+</head>
+
+<body>
+   <h1 align="center">Filter Task by Category</h1>
+   <form action="/filterresult" method="post" align="center">
+    <label >User id:</label>
+    <input type="text" name="user_id">
+
+    <label >Enter Category</label>
+    <input type="text" name="category">
+   
+    <br>
+   
+    <br>
+    <input type="submit" value="submit">
+    {{msg}}
+</form>
+
+</body>
+</html>
